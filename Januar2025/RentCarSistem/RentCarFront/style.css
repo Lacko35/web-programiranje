@@ -1,0 +1,79 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.filter-iznajmi-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+}
+
+.iznajmljivanje-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    row-gap: 5px;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.filtriranje-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    row-gap: 5px;
+    border: 1px dotted black;
+    width: 500px;
+}
+
+.iznajmljivanje-container-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filtriranje-container-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    padding: 0;
+}
+
+select {
+    width: 173px;
+    height: 19px;
+}
+
+.prikaz-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.automobil-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    row-gap: 5px;
+}
+
+.automobil-container-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.automobil-container-element > div {
+    width: 100px;
+}
