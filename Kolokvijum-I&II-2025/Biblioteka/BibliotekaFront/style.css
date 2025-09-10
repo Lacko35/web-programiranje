@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.functional-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.add-book {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    flex-grow: 1;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-book-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-book-element > input {
+    padding: 0;
+    width: 140px;
+}
+
+.library-functionalities {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.functionalities-sub-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.functionalities-sub-div > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.functionalities-sub-div > div > input {
+    width: 60%;
+}
+
+.functionalities-sub-div > div > button {
+    width: 40%;
+}
+
+.display-book {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 1px solid black;
+    padding: 5px;
+}
