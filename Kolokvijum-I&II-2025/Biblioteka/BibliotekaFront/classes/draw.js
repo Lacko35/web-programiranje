@@ -86,7 +86,7 @@ export default class Draw {
                 if(res2.status === 200) {
                     const res2Data = await res2.json();
 
-                    const knjige = res2Data.map(knjiga => new Knjiga(knjiga.identifikator, knjiga.nasloviKnjige, knjiga.autor, knjiga.izdavacKnjige,
+                    const knjige = res2Data.map(knjiga => new Knjiga(knjiga.identifikator, knjiga.naslovKnjige, knjiga.autor, knjiga.izdavacKnjige,
                         knjiga.godina, knjiga.brojEvidencije, knjiga.izdata));
                     
                     this.popuniSelect(bookSelector, knjige);
