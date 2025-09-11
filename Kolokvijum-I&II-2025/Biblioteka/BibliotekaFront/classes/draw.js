@@ -164,7 +164,7 @@ export default class Draw {
             let knjiga = bookSelector.options[bookSelector.selectedIndex].id;
 
             if(event.target.textContent === "Vrati") {
-                const response = await fetch(`http://localhost:5294/Global/VratiKnjigu/{${parseInt(knjiga)}}/${parseInt(library.bibliotekaID)}`, {
+                const response = await fetch(`http://localhost:5294/Global/VratiKnjigu/${parseInt(knjiga)}/${parseInt(library.bibliotekaID)}`, {
                     method: "POST"
                 });
 
@@ -173,7 +173,7 @@ export default class Draw {
                 }
             }
             else {
-                const response = await fetch(`http://localhost:5294/Global/IzdajKnjigu/{${parseInt(knjiga)}}/${parseInt(library.bibliotekaID)}`, {
+                const response = await fetch(`http://localhost:5294/Global/IzdajKnjigu/${parseInt(knjiga)}/${parseInt(library.bibliotekaID)}`, {
                     method: "POST"
                 });
 
@@ -182,7 +182,7 @@ export default class Draw {
                 }
             }
 
-            this.najcitanijaKnjiga(displayBookContent);
+            obj.najcitanijaKnjiga(displayBookContent);
         });
 
         const dispayBookContainer = document.createElement("div");
