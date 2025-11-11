@@ -1,0 +1,60 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.element > input {
+    width: 550px;
+    padding: 5px;
+}
+
+.kindergarden {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.group-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.group-element > div {
+    width: 100px;
+}
+
+.group-member {
+    border: 1px dotted black;
+    padding: 5px;
+}
