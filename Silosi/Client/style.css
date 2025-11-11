@@ -1,0 +1,66 @@
+.user-interface {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.silos-state {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.silos-state>h2 {
+    text-align: center;
+}
+
+.silos-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.silos {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.change-state {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.change-state>div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 15px;
+}
+
+.change-state>div>.form-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    width: 100px;
+    padding: 0;
+}
+
+select {
+    width: 105px;
+}
