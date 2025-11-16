@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEB\\Vrtic\\Server\\Server.csproj": {}
+    "D:\\WEB\\web-programiranje\\Vrtic\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\WEB\\Vrtic\\Server\\Server.csproj": {
+    "D:\\WEB\\web-programiranje\\Vrtic\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Vrtic\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\WEB\\web-programiranje\\Vrtic\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\WEB\\Vrtic\\Server\\Server.csproj",
+        "projectPath": "D:\\WEB\\web-programiranje\\Vrtic\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\xXx\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Vrtic\\Server\\obj\\",
+        "outputPath": "D:\\WEB\\web-programiranje\\Vrtic\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xXx\\AppData\\Roaming\\NuGet\\NuGet.Config"
